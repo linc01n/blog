@@ -29,16 +29,19 @@ I am using vps from buyvm. I got from a year deal which is USD12/year.
 	* Bandwidth: 500GB
 	* Location: Buffalo, USA
 * OS:
-	* Debian 6.0 64bit (minimal)	 
+	* Debian 6.0 64bit (minimal)
 
 
 Make sure you login root as follow:
+
 ![login as root](/images/softether_vps/login.png)
 
 Before installing SoftEther Server let us install some prerequisite.
 {% include_code build_tools.sh %}
 
 Go to [SoftEther][3] to download the server binary.
+
+
 ![download selection](/images/softether_vps/download_selection.png)
 
 I am using Ver 1.00, Build 9029, rc2 in this tutorial.
@@ -79,16 +82,24 @@ VPN Server>ServerPasswordSet
 Enter the admin password.
 
 I do the setting on a windows client.
-It is running 
+It is running
+
+
 ![server manager](/images/softether_vps/server_manager.png)
 
 Install it, run it, click New setting. Input ip and password.
+
+
 ![input setting](/images/softether_vps/setting.png)
 
 Then connect to it.
 On successful login, it will pop up Easy Setup
+
+
 ![easy setup](/images/softether_vps/easy_setup.png)
 Check Remote Access Server and Next
+
+
 ![warning](/images/softether_vps/warning.png)
 
 Yes
@@ -106,14 +117,21 @@ OK
 We disable Azure VPN
 
 ![Create User](/images/softether_vps/create_user.png)
+
+
 Then we need to create a new user. This is trivial.
+
+
 ![User](/images/softether_vps/user.png)
 
 ![Manager](/images/softether_vps/manager.png)
 Click on "Manage Virtual Hub"
 
 Click on "Secure NAT"
+
+
 ![Secure NAT](/images/softether_vps/secure_nat.png)
+
 
 Enable the Virtual NAT
 
