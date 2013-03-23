@@ -9,7 +9,7 @@ categories: [vps, vpn, ops, sysadmin]
 I saw a post on [lowendtalk](http://www.lowendtalk.com/discussion/8783/softether-very-powerful-easy-to-use-multi-protocol-vpn-software) last week introducing a new piece of vpn software call SoftEther.
 
 ### What is [SoftEther][1]
-A Free ​Cross-platform Multi-protocol VPN program,
+A Free Cross-platform Multi-protocol VPN program,
 as an academic project from [University of Tsukuba](http://www.tsukuba.ac.jp/english/).
 
 It is a single server which support SSL-VPN (HTTPS) and 6 major VPN protocols (OpenVPN, IPsec, L2TP, MS-SSTP, L2TPv3 and EtherIP).
@@ -17,6 +17,10 @@ It is a single server which support SSL-VPN (HTTPS) and 6 major VPN protocols (O
 I would like to also highlight the [VPN over ICMP and VPN over DNS][2] feature if you are inside a very strict network.
 
 ### VPS Setup Guide
+> SoftEther author contacted me to highlight serveral points:
+>
+> * On physical server, local bridge will perform better than SecureNAT
+> * **DO NOT** enable both local bridge and SecureNAT at the same time. Packets will loop infinitly and make your server `100%` CPU usage.
 
 Requirement: VPS
 
@@ -135,8 +139,10 @@ Click on "Secure NAT"
 
 Enable the Virtual NAT
 
+> Again **DO NOT** enable SecureNAT and local bridge at the same time!
+
 ### Done
-You can try to connect to the vpn server.
+You can try to connect to the vpn server through L2TP/IPSec.
 
 
 [1]: http://www.softether.org/
