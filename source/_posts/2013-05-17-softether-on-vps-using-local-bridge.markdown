@@ -145,6 +145,7 @@ After all the above setting, restart the vpnserver then we are good to go.
 
 ```
 # /etc/init.d/vpnserver restart
+# /etc/init.d/dnsmasq restart
 ```
 
 Comparison on SecureNAT and local bridge method.
