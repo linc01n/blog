@@ -17,6 +17,7 @@ It is a single server which support SSL-VPN (HTTPS) and 6 major VPN protocols (O
 I would like to also highlight the [VPN over ICMP and VPN over DNS][2] feature if you are inside a very strict network.
 
 ### VPS Setup Guide
+This post use SecureNAT. You may want to [setup local bridge](http://linc01n.github.io/blog/2013/05/17/softether-on-vps-using-local-bridge/).
 > SoftEther author contacted me to highlight serveral points:
 >
 > * On physical server, local bridge will perform better than SecureNAT
@@ -24,7 +25,7 @@ I would like to also highlight the [VPN over ICMP and VPN over DNS][2] feature i
 
 Requirement: VPS
 
-I am using vps from buyvm. I got from a year deal which is USD12/year.
+I am using vps from buyvm. I got from a year deal which is USD12/year. I would recommend [Ramnode](https://clientarea.ramnode.com/aff.php?aff=319) as a VPS provider. Their VPS is speedy and support is amazing.
 
 * Spec:
 	* RAM: 128MB
@@ -131,7 +132,7 @@ Then we need to create a new user. This is trivial.
 ![Manager](/images/softether_vps/manager.png)
 Click on "Manage Virtual Hub"
 
-Click on "Secure NAT"
+Click on "Secure NAT" (If you want a faster connection we can refer to my 2nd post on [softether](http://linc01n.github.io/blog/2013/05/17/softether-on-vps-using-local-bridge/))
 
 
 ![Secure NAT](/images/softether_vps/secure_nat.png)
