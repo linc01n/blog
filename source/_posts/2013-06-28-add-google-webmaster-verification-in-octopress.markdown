@@ -3,7 +3,7 @@ layout: post
 title: "Add google webmaster verification in octopress"
 date: 2013-06-28 19:34
 comments: true
-categories: blog, octopress, google webmaster, verification
+categories: [blog, octopress, google webmaster, verification]
 ---
 
 ### Google Webmaster verification
