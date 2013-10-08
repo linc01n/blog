@@ -47,7 +47,7 @@ Let's build the box with
 
 Wait a while the os is installing. Here comes with a gotcha. If you get stuck in install grub-pc, you need to reboot you mac. I don't know why but it works. I also found we cannot do unattended install of Parallels tools. After the build is complete, do not shutdown the instance. Install the tools using ssh with vagrant/vagrant login.
 
-The last step of creating the box is 
+The last step of creating the box is
 
 `veewee parallels export 'ubuntu-1204-lts' --workdir=/path/to/wd`
 
@@ -55,12 +55,12 @@ The last step of creating the box is
 
 So after importing the box, created the new Vagrantfile. We can start the vagrant box.
 
-`vagrant up --provider=paralles` 
+`vagrant up --provider=paralles`
 
 Use the provider flag on the first time boot.
 
- 
-### Everything is just like VirtualBox 
+
+### Everything is just like VirtualBox
 
 The networking config in Vagrantfile seems still not support. But this plugin is only 0.0.4. We will see.
 
