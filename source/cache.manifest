@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# 9aa2283
+# 6e72b38
 
 CACHE:
 /javascripts/gap.min.js
@@ -17,6 +17,54 @@ CACHE:
 /index.html
 http://share.loader.io/assets/application-82706eaf502e6fcb3961b2ad3cfe9f7a.css
 http://share.loader.io/assets/widget-d870d0fc17e35e800aabf7a881902af5.js
+/images/bird_32_gray.png
+/images/bird_32_gray_fail.png
+/images/code_bg.png
+/images/created_by.jpg
+/images/dotted-border.png
+/images/email.png
+/images/fancybox
+/images/fancybox/blank.gif
+/images/fancybox/fancybox_loading.gif
+/images/fancybox/fancybox_sprite.png
+/images/gruff.png
+/images/line-tile.png
+/images/loading_gray.gif
+/images/loading_pacman.gif
+/images/noise.png
+/images/rss.png
+/images/search.png
+/images/social
+/images/social/coderwall.png
+/images/social/delicious.png
+/images/social/facebook.png
+/images/social/github.png
+/images/social/google.png
+/images/social/linkedin.png
+/images/social/pinboard.png
+/images/social/pinterest.png
+/images/social/rss.png
+/images/social/twitter.png
+/images/softether_local_bridge
+/images/softether_local_bridge/check-on-the-sever.png
+/images/softether_local_bridge/create-local-bridge.png
+/images/softether_local_bridge/l2tp_bridge.png
+/images/softether_local_bridge/l2tp_SecureNAT.png
+/images/softether_local_bridge/local-bridge-setting.png
+/images/softether_vps
+/images/softether_vps/azure.png
+/images/softether_vps/create_user.png
+/images/softether_vps/download_selection.png
+/images/softether_vps/easy_setup.png
+/images/softether_vps/l2tp.png
+/images/softether_vps/login.png
+/images/softether_vps/manager.png
+/images/softether_vps/secure_nat.png
+/images/softether_vps/server_manager.png
+/images/softether_vps/setting.png
+/images/softether_vps/user.png
+/images/softether_vps/virtual_hub.png
+/images/softether_vps/warning.png
 
 NETWORK:
 /blog/*
