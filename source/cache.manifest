@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# 678013c
+# 9aa2283
 
 CACHE:
 /javascripts/gap.min.js
@@ -14,9 +14,9 @@ CACHE:
 /javascripts/libs/jXHR.js
 /javascripts/libs/jquery.min.js
 /javascripts/libs/swfobject-dynamic.js
+/index.html
 
 NETWORK:
-index.html
 /blog/*
 /images/*
 *
