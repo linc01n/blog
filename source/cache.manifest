@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# 6e72b38
+# 529db32
 
 CACHE:
 /javascripts/gap.min.js
@@ -23,7 +23,6 @@ http://share.loader.io/assets/widget-d870d0fc17e35e800aabf7a881902af5.js
 /images/created_by.jpg
 /images/dotted-border.png
 /images/email.png
-/images/fancybox
 /images/fancybox/blank.gif
 /images/fancybox/fancybox_loading.gif
 /images/fancybox/fancybox_sprite.png
@@ -34,7 +33,6 @@ http://share.loader.io/assets/widget-d870d0fc17e35e800aabf7a881902af5.js
 /images/noise.png
 /images/rss.png
 /images/search.png
-/images/social
 /images/social/coderwall.png
 /images/social/delicious.png
 /images/social/facebook.png
@@ -45,13 +43,11 @@ http://share.loader.io/assets/widget-d870d0fc17e35e800aabf7a881902af5.js
 /images/social/pinterest.png
 /images/social/rss.png
 /images/social/twitter.png
-/images/softether_local_bridge
 /images/softether_local_bridge/check-on-the-sever.png
 /images/softether_local_bridge/create-local-bridge.png
 /images/softether_local_bridge/l2tp_bridge.png
 /images/softether_local_bridge/l2tp_SecureNAT.png
 /images/softether_local_bridge/local-bridge-setting.png
-/images/softether_vps
 /images/softether_vps/azure.png
 /images/softether_vps/create_user.png
 /images/softether_vps/download_selection.png
@@ -68,5 +64,3 @@ http://share.loader.io/assets/widget-d870d0fc17e35e800aabf7a881902af5.js
 
 NETWORK:
 /blog/*
-/images/*
-*
