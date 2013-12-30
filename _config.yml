@@ -2,10 +2,10 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://linc01n.github.io
+title: Coding, Coding, Coding
+subtitle: Mostly about web :)
+author: Lincoln Lee
 simple_search: http://google.com/search
 description:
 
@@ -19,7 +19,8 @@ date_format: "ordinal"
 subscribe_rss: /atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
-email:
+email: git@lincoln.hk
+author_job: Backend Developer / DevOps
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -40,7 +41,7 @@ rdiscount:
     - footnotes
     - smart
 pygments: false # default python pygments have been replaced by pygments.rb
-
+include: ["googlee6f58889c6743f46.html"]
 paginate: 10          # Posts per page on the blog index
 pagination_dir: blog  # Directory base for pagination URLs eg. /blog/page/2/
 recent_posts: 5       # Posts in the sidebar Recent Posts section
@@ -54,7 +55,7 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 
 # Each layout uses the default asides, but they can have their own asides instead. Simply uncomment the lines below
 # and add an array with the asides you want to use.
-# blog_index_asides:
+blog_index_asides:  [asides/recent_posts.html, asides/github.html, asides/delicious.html, asides/pinboard.html]
 # post_asides:
 # page_asides:
 
@@ -63,17 +64,21 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 # ----------------------- #
 
 # Github repositories
-github_user:
-github_repo_count: 0
+github_user: linc01n
+github_repo_count: 4
 github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user:
+twitter_user: linc01n
+twitter_tweet_count: 4
+twitter_show_replies: false
+twitter_follow_button: true
+twitter_show_follower_count: false
 twitter_tweet_button: true
 
-# Google +1
-google_plus_one: false
+# Google Plus
+google_plus_one: true
 google_plus_one_size: medium
 
 # Google Plus Profile
@@ -90,11 +95,11 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
+disqus_short_name: linc01n
 disqus_show_comment_count: false
 
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id: UA-25566299-1
 
 # Facebook Like
 facebook_like: false
