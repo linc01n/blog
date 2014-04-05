@@ -48,7 +48,7 @@ After that we type in the name of the tap device(I use soft here for simplicity)
 After the creation of the local bridge we jump back to our server. And run
 
 ```
-# ifconfig tap_soft 
+# ifconfig tap_soft
 ```
 
 It should show you something similar to this
@@ -157,4 +157,4 @@ Comparison on SecureNAT and local bridge method.
 
 Local bridge use far less CPU resources than SecureNAT. It is a bit trouble to setup but I think it is worth to use local bridge.
 
-I would recommend [Ramnode](https://clientarea.ramnode.com/aff.php?aff=319) as a VPS provider. Their VPS is speedy and support is amazing.
+I would recommend [Ramnode](https://clientarea.ramnode.com/aff.php?aff=319)(affiliated) as a VPS provider. Their VPS is speedy and support is amazing.

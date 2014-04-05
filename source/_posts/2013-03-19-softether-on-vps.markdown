@@ -25,7 +25,7 @@ This post use SecureNAT. You may want to [setup local bridge](http://linc01n.git
 
 Requirement: VPS
 
-I am using vps from buyvm. I got from a year deal which is USD12/year. I would recommend [Ramnode](https://clientarea.ramnode.com/aff.php?aff=319) as a VPS provider. Their VPS is speedy and support is amazing.
+I am using vps from buyvm. I got from a year deal which is USD12/year. I would recommend [Ramnode](https://clientarea.ramnode.com/aff.php?aff=319)(affiliated) as a VPS provider. Their VPS is speedy and support is amazing.
 
 * Spec:
 	* RAM: 128MB
